@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font: normal bold 16px / normal tahoma;
+}
+
+article {
+  width: 300px;
+  text-align: center;
+  background-color: #68b04d;
+  border-radius: 10px;
+  margin: 50px auto 20px;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px #ccc;
+}
+
+article h3 {
+  padding: 10px;
+  color: #fff;
+}
+
+article .timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+article #timerDisplay {
+  width: 70%;
+  padding: 5px;
+  color: crimson;
+  background-color: aliceblue;
+  border: 2px solid #54923d;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px 3px #ccc inset;
+}
+
+.btn {
+  width: 20%;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font: normal bold 12px / normal tahoma;
+  background-color: aliceblue;
+  border-color: #68b04d;
+}
